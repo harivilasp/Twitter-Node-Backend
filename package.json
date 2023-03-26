@@ -1,0 +1,24 @@
+{
+  "type": "module",
+  "name": "tuiter-node-app-cs5610-07-sp23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harivilasp/tuiter-node-app-cs5610-07-sp23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harivilasp/tuiter-node-app-cs5610-07-sp23/issues"
+  },
+  "homepage": "https://github.com/harivilasp/tuiter-node-app-cs5610-07-sp23#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
