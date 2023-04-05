@@ -4,6 +4,11 @@ import UserController from "./controllers/users/users-controller.js";
 import TuitsController from "./controllers/tuits/tuits-controller.js";
 import cors from 'cors'
 
+import mongoose from "mongoose";
+mongoose.connect('mongodb+srv://harivilasp2:Nd2RjaHbZa1dxTHu@cluster0.9l8awdl.mongodb.net/tuiter?retryWrites=true&w=majority');
+
+
+
 const app = express()
 app.use(express.json());
 app.use(cors())
